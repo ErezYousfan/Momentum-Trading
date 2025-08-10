@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Data files (these can be large and regenerated)
+data/
+*.csv
+
+# Results might be regenerated, but you may want to keep some sample results
+results/*.png
+results/*.jpg
+# Keep sample results by explicitly adding them with git add -f
+
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+
+# Log files
+*.log
